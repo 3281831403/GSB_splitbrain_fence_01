@@ -1,0 +1,64 @@
+# IDE and Editor files
+.idea/
+.intellij/
+*.iml
+.vscode/
+.VSCodeCounter
+
+# OS generated files
+.DS_Store
+
+# Python files
+.venv
+.ipynb_checkpoints/
+
+# Logs and data
+*.log
+*.csv
+
+.secrets
+
+# Coverage and testing
+cover.out
+cover.html
+coverage.out
+coverage.html
+trace.out
+
+# Project documentation
+design-note.md
+
+# Build output and binaries
+/benchmarks/cmd/cmd
+/component/component
+*.exe
+
+
+oreo-executor-image.tar.gz
+
+
+# Ignore any path with the name 'executor'.
+# This targets both files and directories anywhere in the repository.
+executor
+# Make an exception for directories named 'executor'.
+!executor/
+
+ft-executor
+!ft-executor/
+
+timeoracle
+!timeoracle/
+
+ft-timeoracle
+!ft-timeoracle/
+
+tc-test
+!tc-test/
+
+cassandra_util
+!cassandra_util/
+
+getip
+!getip/
+
+oreo-figures/
